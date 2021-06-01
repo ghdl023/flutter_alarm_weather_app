@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_weather_app/screen/weather_screen.dart';
 import 'package:flutter_weather_app/widget/bottomNav.dart';
 
 void main() {
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
             physics: NeverScrollableScrollPhysics(),
             children: <Widget>[
               Container(),
-              Container(),
+              WeatherScreen(),
             ],
           ),
           bottomNavigationBar: BottomNav(),
