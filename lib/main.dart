@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_weather_app/screen/alarm_screen.dart';
 import 'package:flutter_weather_app/screen/weather_screen.dart';
 import 'package:flutter_weather_app/widget/bottomNav.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
           body: TabBarView(
             physics: NeverScrollableScrollPhysics(),
             children: <Widget>[
-              Container(),
+              AlarmScreen(),
               WeatherScreen(),
             ],
           ),

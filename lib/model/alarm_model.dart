@@ -27,6 +27,10 @@ class AlarmInfo {
     return _alarmTime;
   }
 
+  setAlarmOn(bool on) {
+    _isAlarmOn = on;
+  }
+
   isAlarmOn() {
     return _isAlarmOn;
   }
